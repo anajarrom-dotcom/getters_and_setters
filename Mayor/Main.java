@@ -53,6 +53,11 @@ public class Main {
         c.setEmail("luis@gmail.com");
 
         c.mostrarContacto();
+        
+        Jugador j = new Jugador("Mario");
+
+        j.actualizarPuntaje(50);
+        j.actualizarPuntaje(120);
 	}
 
 }
