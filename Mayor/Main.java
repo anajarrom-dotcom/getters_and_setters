@@ -23,6 +23,10 @@ public class Main {
         c1.retirar(200, 1234);
         c1.retirar(200, 1111);
     
+        Cursos_Calificaciones ca1 = new Cursos_Calificaciones("Programacion", 70, 65, 80);
+
+        System.out.println("Promedio: " + ca1.promedio());
+        System.out.println("Estado: " + ca1.estado());
 	}
 
 }
