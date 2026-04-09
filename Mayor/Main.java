@@ -58,6 +58,10 @@ public class Main {
 
         j.actualizarPuntaje(50);
         j.actualizarPuntaje(120);
+        
+        Factura f = new Factura("F001", "Teclado", 2, 150);
+
+        f.mostrarFactura();
 	}
 
 }
