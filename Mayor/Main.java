@@ -45,6 +45,14 @@ public class Main {
         r.setSegundo(45);
 
         System.out.println(r.mostrarHora());
+        
+        Contacto c = new Contacto();
+
+        c.setNombre("Luis");
+        c.setTelefono("12345678");
+        c.setEmail("luis@gmail.com");
+
+        c.mostrarContacto();
 	}
 
 }
