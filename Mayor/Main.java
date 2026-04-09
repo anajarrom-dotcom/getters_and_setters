@@ -31,6 +31,20 @@ public class Main {
         Estudiante e1 = new Estudiante("2024001", "Carlos", 90);
 
         System.out.println(e1.esBecado());
+        
+        Termometro t1 = new Termometro();
+
+        t1.setCelsius(25);
+
+        System.out.println(t1.getFahrenheit());
+        
+        Reloj r = new Reloj();
+
+        r.setHora(10);
+        r.setMinuto(30);
+        r.setSegundo(45);
+
+        System.out.println(r.mostrarHora());
 	}
 
 }
