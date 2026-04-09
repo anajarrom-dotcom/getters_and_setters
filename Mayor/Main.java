@@ -10,6 +10,14 @@ public class Main {
 		System.out.println(prs1);
 		System.out.println(prs2);
 		System.out.println(prs3);
+		
+		Producto p1 = new Producto("001", "Laptop", 5000, 10);
+
+        p1.vender(3);
+        p1.vender(8);
+
+        System.out.println("Stock final: " + p1.getStock());
+    
 	}
 
 }
