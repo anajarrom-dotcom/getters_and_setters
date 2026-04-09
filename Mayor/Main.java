@@ -27,6 +27,10 @@ public class Main {
 
         System.out.println("Promedio: " + ca1.promedio());
         System.out.println("Estado: " + ca1.estado());
+        
+        Estudiante e1 = new Estudiante("2024001", "Carlos", 90);
+
+        System.out.println(e1.esBecado());
 	}
 
 }
