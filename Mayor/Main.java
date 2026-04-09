@@ -17,6 +17,11 @@ public class Main {
         p1.vender(8);
 
         System.out.println("Stock final: " + p1.getStock());
+        
+        CuentaBancaria c1 = new CuentaBancaria("Juan", 1000, 1234);
+
+        c1.retirar(200, 1234);
+        c1.retirar(200, 1111);
     
 	}
 
